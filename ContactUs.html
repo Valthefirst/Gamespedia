@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="ContactUsCss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae3f4c090e.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="logo" style="margin-left: 7%;"> <span>G</span>amespedia</li>
+        <li class="link pages" style="float: right; margin-right: 8%;" id="ContactUs"><a href="">Contact Us</a></li>
+        <li class="link pages" style="float: right; margin-right: 3%;" id="Characters"><a href="#" id="charactersLink">Characters</a></li>
+        <li class="home pages" style="float: right; margin-right: 3%;" id="Home"><a href="Gamespedia-Home.html">Home</a></li>
+      </ul>
+    </nav>
+    
+    <div class="mainContainer">
+
+      <div class="detailsContainer" >
+        <div class="IconAndText" style="margin-top: 30px;">
+          <div><i class="fa-solid fa-user icon userIcon"></i></div>
+          <div>
+            <p>
+              If you have any questions or comments <br>
+              please fill the form on the <br>
+              left, thank you !
+            </p>
+          </div>
+        </div>
+
+        <div class="IconAndText">
+          <div><i class="fa-solid fa-paper-plane icon"></i></div>
+          <div>
+            <p>
+              After filling up the form on the left click<br>
+              the submit button and the message<br>
+              will be sent to us.
+            </p>
+          </div>
+        </div>
+
+        <div class="IconAndText">
+          <div><i class="fa-solid fa-envelope-circle-check icon emailIcon"></i></i></div>
+          <div>
+            <p>
+              After sending the form to us we will get <br>
+              back at you within seven days so <br>
+              please check regularly your <br>
+              mailbox.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="formContainer">
+
+        <div class="blurBg" id="parentDiv">
+
+          <form id="formTag">
+            <label for="">NAME</label>
+            <br>
+            <input type="text" size="88%" placeholder="Bruce Wayne" class="input">
+            <hr>
+            
+            <label for="">E-MAIL</label>
+            <br>
+            <input type="email" size="88%" placeholder="@example.com" class="input">
+            <hr>
+            
+            <label for="">PHONE</label>
+            <br>
+            <input type="tel" size="88%" placeholder="(450)-555-5555" class="input">
+            <hr>
+
+            <label for="">MESSAGE</label>
+            <br>
+            <textarea id="message" cols="76" rows="9" placeholder="Type your message here." ></textarea>
+            <hr>
+            <br>
+
+            <input type="button" class="submitBtn" id="SubmitBtn" value="SUBMIT">
+          </form>
+
+        
+        </div>
+      </div>
+      
+    </div>
+    
+    <footer>
+      
+      <div class="socialMediaContainer">
+        <!--<i class="gamepad fa-solid fa-gamepad"></i>-->
+        <i class="s_M_Icon fa-brands fa-facebook-square"></i>
+        <i class="s_M_Icon fa-brands fa-instagram"></i>
+        <i class="s_M_Icon fa-brands fa-twitter"></i>
+
+      </div>
+
+      <p class="texFooter">
+        If you want to know more about Gamespedia and keep up with us please feel
+        <br>
+        free to follow us on Instagram, Facebook or even Twitter
+        <br>
+        at Gamespedia_Gamers_For_Life.
+      </p>
+
+    </footer>
+
+    <script src="ContactUsJs.js"></script>
+  </body>
+</html>

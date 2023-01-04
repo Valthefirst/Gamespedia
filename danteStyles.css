@@ -1,0 +1,240 @@
+
+/*----------------------------Nav bar----------------------------------*/
+.background-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    display: block;
+    background-image: url("img/DMC3Moon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    filter: blur(2px);
+  }
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    position: relative;
+    background-color: black;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+    
+li {
+float: left;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+li a, .logo{
+display: block;
+text-align: center;
+padding: 10px 20px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 15px;
+transition: 500ms;
+font-family: kanit;
+}
+
+li a:hover{
+    text-decoration-color: red;
+}
+
+.logo{
+    border: 5px solid white ;
+    border-radius: 50px;
+    font-size: 25px;
+    box-shadow: 0px 0px 20px white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pages{
+    margin-top: 2.5%;
+    opacity: 50%;
+    transition: 500ms;
+    font-weight: normal;
+    font-style: normal;
+}
+span{
+    color: red;
+    text-shadow: 0px 0px 0px;
+}
+
+/*----------------------------Kratos Info Page----------------------------------*/
+
+.kratosDetails{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 450px;
+    height: 670px;
+    float: left;
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+}
+.divKratosIMG{
+    position: absolute;
+    margin-top: 8%;
+    width: 990px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.kratosTransparent{
+    max-width: 80%;
+    max-height: 80%;
+}
+.BtnContainer{
+    position: relative;
+}
+
+/*----------------------------Kratos name , game , text , button----------------------------------*/
+.DetailContent{
+    padding-left: 22%;
+    padding-top: 15%;
+    padding-right: 18%;
+    color: white;
+}
+.infoName{
+    padding-top: 5%;
+    font-size: 50px;
+    margin: 0;
+}
+.infoGame{
+    margin: 0;
+    opacity: 67%;
+    padding-bottom: 5%;
+}
+
+.infoText,.infoText2,.infoText3{
+    color: rgba(255, 255, 255, 0.527);
+    display: none;
+    text-align: justify;
+    padding-bottom: 9%;
+    font-weight: lighter;
+}
+.infoText2{
+    padding-bottom: 3%;
+}
+.infoText{
+    display: block;
+}
+.axeImg{
+    width:244px;
+    height:87px;
+    opacity: 100%;
+    padding: 25px 0px 15px 0px;
+}
+
+.readMoreBtn{
+    padding: 10px 20px;
+    border: 2px solid #00a6ffb4;
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 11px;
+    background-color: rgba(0, 0, 0, 0.352);
+    transition: 200ms;
+}
+.readMoreBtn:hover{
+    transition: 200ms;
+    border-color: #00A5FF;
+    box-shadow: 0px 0px 10px #00A5FF;
+}
+
+.P_W_Title{
+    font-family: kanit;
+    color: white;
+    font-size: 25px;
+}
+
+/*------------------------------Story, Powers, weakness Buttons------------------------------------*/
+
+.btnPosition{
+    margin-top: 5%;
+}
+.BtnContainer{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.644);
+    padding: 25px 100px 25px 100px;
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+}
+.btn{
+    padding: 10px 30px;
+    border: 2px solid #006ca5;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 11px;
+    background-color: rgba(0, 0, 0, 0.352);
+    margin-bottom: 10%;
+    transition: 200ms;
+}
+.btn:hover{
+    transform : scale(1.1);
+    transition :200ms;
+    border-Color :#00A5FF;
+    box-Shadow : 0px 0px 10px #00A5FF;
+    cursor : pointer;
+}
+
+.weaknessbtn{
+    margin-bottom: 0;
+}
+
+/*------------------------------Footer------------------------------------*/
+.socialMediaContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+.s_M_Icon{
+    color: rgba(255, 255, 255, 0.804);;
+    text-align: center;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+footer{
+    position: relative;
+    clear: both;
+    width: auto;
+    height: 178px;
+    background-color: black;
+}
+.texFooter{
+    color: white;
+    text-align: center;
+    opacity: 58%;
+    padding-bottom: 1.5%;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+.DanteLink{
+    text-decoration: none;
+    color: white;
+    transition: 250ms;
+}
+
+.DanteLink:hover{
+    transform: scale(1.03);
+    transition: 250ms;
+    color: #00A5FF;
+    text-shadow: 0px 0px 10px #00A5FF;
+}

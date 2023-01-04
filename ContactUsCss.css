@@ -1,0 +1,164 @@
+body{
+    font-family: kanit;
+}
+nav{
+    background-color: black;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li {
+float: left;
+margin-top: 2%;
+}
+
+li a, .logo{
+display: block;
+text-align: center;
+padding: 10px 16px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+text-decoration-color: none;
+font-size: 15px;
+transition: 350ms;
+font-family: Kanit;
+}
+li a:hover{
+    text-decoration-color: red;
+}
+
+.logo{
+    border: 5px solid white ;
+    border-radius: 50px;
+    font-size: 25px;
+    box-shadow: 0px 0px 20px white;
+    margin-bottom: 2%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Kanit;
+    font-weight: bold;
+    font-style: italic;
+}
+.pages{
+    margin-top: 2.5%;
+    opacity: 60%;
+    font-family: kanit;
+}
+span{
+    color: red;
+}
+/*------------------ form / main area ----------------*/
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+.detailsContainer{
+    width: 800px;
+    height: 100%;
+    padding: 65px 0%;
+}
+.IconAndText{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 70px;
+}
+p{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 12px;
+    text-align: left;
+    margin: 0px;
+    margin-top: 12px;
+}
+.icon{
+    font-size: 30px;
+    border: 5px solid rgba(0, 0, 0, 0.25);
+    padding: 20px 20px;
+    border-radius: 50px;
+    color: rgba(0, 0, 0,0.25);
+    margin-right: 25px;
+}
+.emailIcon{
+    padding: 20px 17.5px;
+}
+.userIcon{
+    padding: 20px 22px;
+}
+.formContainer{
+    background-image: url('img/formbg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.blurBg{
+    backdrop-filter: blur(7px);
+    background-color: rgba(60, 60, 60, 0.382);
+}
+form{
+    color: white;
+    height: 100%;
+    padding: 81px 15%;
+}
+input,textarea{
+    background-color: rgba(0, 0, 255, 0);
+    border: none;
+    color: rgba(255, 255, 255, 0.795);
+    font-family:Arial, Helvetica, sans-serif
+}
+textarea{
+    width: auto;
+    height: auto;
+}
+hr{
+    margin: px 0px;
+}
+.submitBtn{
+    background-color: rgba(80, 80, 80, 0.393);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 7px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 200ms;
+    text-align: center;
+    width: 100px;
+}
+
+/*------------------------------Footer------------------------------------*/
+.socialMediaContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 45px;
+}
+.s_M_Icon{
+    color: rgba(255, 255, 255, 0.804);;
+    text-align: center;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+footer{
+    width: auto;
+    height: 200px;
+    background-color: black;
+}
+.texFooter{
+    color: white;
+    text-align: center;
+    opacity: 58%;
+    padding-bottom: 1.5%;
+    font-size: 12px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
